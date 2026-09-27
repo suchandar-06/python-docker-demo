@@ -1,6 +1,6 @@
 FROM python
 WORKDIR /workdir
-ADD . .
+COPY . .
 RUN pip install requirements.txt
 EXPOSE 8000
 MAINTAINER Suchandar
